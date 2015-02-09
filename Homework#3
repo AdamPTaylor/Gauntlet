@@ -2,7 +2,7 @@ Induction Worksheet (part 1):
 
 Q7: Rewrite <A> ::=  {x}* .
 
-<A> ::=() | (x . <A>)
+<A> ::=() | (x . <A>) - (not my work) 
 
 Q8: Write three examples Lisp S-lists that can be generated from this grammar. 
 
