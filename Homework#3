@@ -1,1 +1,30 @@
-Insert solutions. 
+Induction Worksheet (part 1): 
+
+Q7: Rewrite <A> ::=  {x}* .
+
+<A> ::=() | (x . <A>)
+
+Q8: Write three examples Lisp S-lists that can be generated from this grammar. 
+
+<S-list> ::= ({S-exp}*)
+<S-exp> ::= <Symbol> | S-list
+
+where Symbol is the set of legal Scheme symbols.
+
+// TO DO
+
+Q9:  Write three examples of binary trees that can be generated from this grammar
+
+<Bintree> ::= <Int> | (<Symbol> <Bintree> <Bintree>)
+
+(foo 1 2)
+2
+(a (b 1 2) (c (d 3 4) 5))
+
+Q10: 
+
+<LcExp> ::= <Identifier> | (lambda (<Identifier>) <LcExp>) | (LcExp LcExp)
+
+Write three examples of lambda calculus expressions that can be generated from this grammar.
+
+//TO DO
